@@ -1,0 +1,656 @@
+$base-color:#E88F2A;
+
+
+
+@media all and (max-width:1200px){
+    section.top-quick-order ul li div.shop-name h1 {
+        padding: 10px 20px 10px 0;
+        font-size: 36px;
+    }
+    section.top-quick-order {
+        padding: 0 50px;
+    }
+
+    //services
+    #services ul li {
+        min-height: 360px;
+        padding: 40px 20px;
+        margin: 0 auto 15px;
+        width: 32%;
+    }
+
+    //locations
+    #other-locations ul li div.each-info p {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    //footer
+    footer {
+        padding: 80px 80px 50px;
+    }
+}
+
+@media all and (max-width:980px){
+    //common
+    #about ,#menu,#services,#chefs,#testimonial,#faq,#other-locations{
+        padding: 60px 0;
+    }
+
+    //top-quick-order
+    section.top-quick-order ul li div.shop-name h1 {
+        padding: 10px 20px 10px 0;
+        font-size: 28px;
+    }
+    section.top-quick-order {
+        padding: 0 40px;
+    }
+
+    //about
+    #about section.for-common-flex div.left-about div.about-image {
+        min-width: 300px;
+        width: auto;
+        height: 350px;
+    }
+    #about section.for-common-flex div.right-about {
+        width: 52%;
+    }
+
+    //menu
+    #menu section.all_products div.each_product {
+        width: 47%;
+        margin: 10px 20px 20px 0;
+        border-radius: 10px 10px 10px 10px;
+        max-height: unset;
+
+        &:nth-child(3n){
+            margin-right: 20px;
+        }
+        &:nth-child(2n){
+            margin-right: 0;
+        }
+    }
+    #menu section.all_products div.each_product div.product_image {
+        height: 250px;
+    }
+    #menu section.all_products div.each_product div.product_info section.price-and-rating {
+        padding: 0px 10px;
+        border-radius: 10px;
+    }
+
+    //services
+    #services ul li {
+        min-height: 300px;
+        padding: 40px 20px;
+        margin: 0 auto 15px;
+        width: 48%;
+    }
+
+    //custom
+    #custom ul li div.custom-cake-img {
+        padding: 40px 0;
+        margin-right: 50px;
+        width: 300px;
+    }
+
+    //chefs
+    #chefs ul li div.chef-image {
+        width: 120px;
+    }
+    #chefs ul li {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        margin: 0 auto 50px;
+        padding: 30px 0px;
+        width: 31%;
+        min-height: 350px;
+        max-height: 350px;
+    }
+    #chefs ul li h6 {
+        font-size: 16px;
+    }
+    #chefs ul li p.chef-description {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    //locations
+    #other-locations ul li {
+        padding: 20px;
+        margin: 0 10px 10px 0;
+        min-height: 250px;
+        max-height: 250px;
+    }
+
+    //footer
+    footer {
+        padding: 80px 0 50px;
+        #contact ul.main-ul {
+            flex-wrap: wrap;
+            li {
+                margin-right: 50px;
+            }
+        }
+    }
+}
+
+@media all and (max-width:860px){
+    //top-quick-order
+    section.top-quick-order ul li div.quick-info h6 {
+        font-size: 16px;
+    }
+    section.top-quick-order ul li div.shop-name h1 {
+        padding: 10px 10px 10px 0;
+        font-size: 22px;
+    }
+
+    //about
+    #about section.for-common-flex {
+        flex-wrap: wrap;
+    }
+    #about section.for-common-flex div.left-about {
+        margin-right: 0px;
+        height: auto;
+    }
+    #about section.for-common-flex div.common-child {
+        width: 100%;
+        text-align: center;
+    }
+    #about section.for-common-flex div.left-about div.about-image {
+        min-width: unset;
+        width: 400px;
+        height: 350px;
+        margin: 0 auto 50px;
+    }
+    #about section.for-common-flex div.right-about section.all-locations {
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    //chefs
+    #chefs ul li div.chef-social-icons a img {
+        width: 25px;
+        height: 25px;
+    }
+    #chefs ul li {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        margin: 0 auto 50px;
+        padding: 30px 0px;
+        width: 31%;
+        min-height: 330px;
+        max-height: 330px;
+    }
+
+    //locations
+    #other-locations ul li {
+        padding: 20px;
+        width: 48%;
+        margin: 0 10px 10px 0;
+        min-height: 210px;
+        max-height: 210px;
+    }
+    #other-locations ul li div.each-info p {
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:768px){
+    //common
+    #about h5.third_heading, h5.third_heading  {
+        font-size: 36px;
+    }
+    h3.second_heading {
+        font-size: 24px;
+    }
+
+    //top-quick-order
+    section.top-quick-order {
+        display: none;
+    }
+
+     //#header
+    header {
+        padding: 20px 60px;
+        background-color: $base-color;
+    }
+    header nav.navbar div.shop-name {
+        display: flex;
+    }
+    header nav.navbar {
+        justify-content: space-between;
+    }
+
+    //Navbar
+	.nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: $base-color;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 0 100px;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    .nav-item {
+        margin: 0 0 30px 0;
+        &:first-child{
+            margin-top: 20px;
+        }
+    }
+    html body  header nav.navbar div.hamburger {
+        display: block;
+        cursor: pointer;
+    }
+	.hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    ul.nav-menu {
+        li.nav-item {
+            margin-right: 0;
+            a {
+                font-size: 16px;
+                font-weight: 900;
+            }
+        }
+    }
+
+    //menu
+    #menu section.all_products div.each_product div.product_info h6 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    #menu section.all_products div.each_product div.product_info section.price-and-rating div.only-price p.price {
+        font-size: 18px;
+    }
+    #menu section.all_products div.each_product div.product_info section.price-and-rating div.only-price p.crossed-price {
+        font-size: 15px;
+    }
+    #menu section.all_products div.each_product div.product_info section.price-and-rating div.rating p.rated {
+        font-size: 15px;
+    }
+
+    //custom
+    #custom ul li div.custom-cake-img {
+        padding: 40px 0;
+        margin-right: 30px;
+        width: 250px;
+    }
+
+    //chefs
+    #chefs ul li {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        margin: 0 auto 50px;
+        padding: 30px 0px;
+        width: 48%;
+        min-height: 320px;
+        max-height: 320px;
+    }
+
+    //faq
+    #faq {
+        padding: 50px 50px;
+    }
+    #faq section.questions div.clickable ul li h6 {
+        font-size: 16px;
+    }
+    #faq section.questions div.clickable div.clicked p {
+        padding-left: 20px;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    #faq section.questions div.clickable ul li div.dropdown {
+        margin-right: 16px;
+        width: 20px;
+    }
+
+    //#contact
+    footer {
+        padding: 50px 0;
+    }
+    footer #contact ul.main-ul li {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        display: block;
+        margin: 0 auto 20px;
+    }
+    footer #contact ul.main-ul li.shop-time {
+        order: 1;
+    }
+    footer #contact ul.main-ul li.contact-details {
+        order: 2;
+    }
+    footer #contact ul.main-ul li.contact-links {
+        order: 3;
+    }
+    footer #contact ul.main-ul li div {
+        width: fit-content;
+        display: block;
+        margin: 0 auto;
+    }
+    footer #contact ul.main-ul li div.address_etc div.both-image-and-detail {
+        align-items: center;
+    }
+    footer #contact ul.main-ul li ul.social-media li {
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    footer #contact ul.main-ul li ul.social-media {
+        margin: 0 100px;
+    }
+}
+
+@media all and (max-width: 640px) {
+    //common
+    #about, #menu, #services, #chefs, #testimonial, #faq, #other-locations {
+        padding: 40px 0;
+    }
+
+    //header
+    header {
+        padding: 20px 30px;
+    }
+    header nav.navbar div.shop-name a.main-logo {
+        width: 120px;
+    }
+    header nav.navbar div.shop-name h1 {
+        font-size: 16px;
+    }
+
+    //spotlight
+    #spotlight div.spotlight-contents div.both-spotlight-buttons a {
+        padding: 16px 14px;
+    }
+    #spotlight div.spotlight-contents div.both-spotlight-buttons a span {
+        letter-spacing: 1px;
+        padding: 8px 16px;
+    }
+
+    //about
+    #about section.for-common-flex div.left-about div.about-image {
+        width: 350px;
+        height: 300px;
+    }
+
+    //menu
+    #menu section.all_products div.each_product {
+        width: 90%;
+        margin: 10px auto 20px;
+        display: block;
+        border-radius: 10px;
+        &:nth-child(3n){
+            margin-right: auto;
+        }
+        &:nth-child(2n){
+            margin-right: auto;
+        }
+    }
+    #menu section.all_products {
+        margin: 10px auto 0;
+        display: block;
+        width: inherit;
+    }
+
+    //services
+    #services ul li {
+        min-height: 260px;
+        padding: 30px 15px;
+        margin: 0 auto 15px;
+        width: 100%;
+    }
+
+    //custom
+    #custom {
+        text-align: center;
+        padding: 0 0 20px;
+        ul {
+            flex-wrap: wrap;
+            li {
+                width: 100%;
+                h6 {
+                    font-size: 16px;
+                }
+                h5 {
+                    font-size: 24px;
+                    margin: 10px 0;
+                }
+                h4 {
+                    margin: 10px 0;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    #custom ul li div.custom-cake-img {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+        padding: 40px 0 20px;
+    }
+    #custom ul li div.order-options {
+        display: inline-flex;
+    }
+    #custom ul li div.order-options a div.order-image {
+        width: 40px;
+        display: block;
+    }
+    #custom p.offer {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    //chefs
+    #chefs ul li {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        margin: 0 auto 50px;
+        padding: 30px 0px;
+        width: 100%;
+        min-height: 300px;
+        max-height: unset;
+    }
+
+    //faq
+    #faq section.questions div.clickable div.clicked p {
+        padding-left: 10px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    #faq section.questions div.clickable ul li h6 {
+        margin-left: 20px;
+    }
+    #faq {
+        padding: 50px 30px;
+    }
+
+    //locations
+    #other-locations ul li {
+        padding: 20px;
+        width: 100%;
+        margin: 0 0px 10px 0;
+        min-height: unset;
+        max-height: unset;
+    }
+
+    //#contact
+    footer {
+        padding: 50px 0 0px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    //common
+    #about h5.third_heading, h5.third_heading {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    h3.second_heading {
+        font-size: 20px;
+    }
+    div.line {
+        width: 150px;
+        height: 4px;
+        margin: 0 auto 50px;
+    }
+    
+    //header
+    header {
+        padding: 15px ;
+    }
+    header nav.navbar div.shop-name a.main-logo {
+        width: 100px;
+    }
+    header nav.navbar div.shop-name h1 {
+        font-size: 14px;
+    }
+
+    //spotlight
+    #spotlight div.spotlight-contents div.both-spotlight-buttons {
+        flex-direction: column;
+    }
+    #spotlight div.spotlight-contents div.both-spotlight-buttons a {
+        margin: 0 0 20px 0;
+    }
+    #spotlight div.spotlight-contents {
+        padding-top: 14%;
+    }
+
+    //about
+    #about section.for-common-flex div.left-about div.about-image {
+        width: 280px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    #about section.for-common-flex div.right-about p {
+        font-size: 15px;
+    }
+    #about section.for-common-flex div.right-about section.all-locations span {
+        font-size: 15px;
+    }
+    #about section.for-common-flex div.right-about section.all-locations div.location-icon {
+        width: 15px;
+        margin-right: 4px;
+    }
+
+    //menu
+    #menu section.all_products div.each_product {
+        width: 100%;
+    }
+    #menu section.all_products div.each_product div.product_image {
+        height: 200px;
+    }
+
+    //services
+    #services ul li div.service-image {
+        width: 60px;
+        height: 60px;
+    }
+    #services ul li div.service-image img {
+        padding: 10px;
+    }
+    #services ul li h6 {
+        font-size: 18px;
+    }
+    #services ul li p {
+        font-size: 15px;
+    }
+
+    //#faq
+    #faq {
+        padding: 40px 20px;
+    }
+    #faq section.questions {
+        padding-bottom: 0px;
+    }
+
+    //testimonial
+    #testimonial {
+        padding: 40px 0;
+    }
+    #testimonial ul li p {
+        font-size: 16px;
+    }
+    #testimonial ul li {
+        padding: 55px 30px 30px;
+    }
+
+    //#contact 
+    footer #contact ul.main-ul li h4 {
+        font-size: 24px;
+    }
+    footer #contact ul.main-ul li a {
+        font-size: 14px;
+    }
+    footer #contact ul.main-ul li div.address_etc div.both-image-and-detail p {
+        font-size: 14px;
+    }
+    footer #contact ul.main-ul li p.day {
+        font-size: 16px;
+    }
+    footer #contact ul.main-ul li p.time {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width:360px){
+    //spotlight
+    #spotlight {
+        min-height: 80vh;
+        padding-bottom: 30px;
+    }
+    #spotlight div.spotlight-contents h2.cake-shop-name {
+        font-size: 52px;
+    }
+    #spotlight div.spotlight-contents h6 {
+        margin: 20px 0 40px;
+        font-size: 24px;
+    }
+    #spotlight div.spotlight-contents div.both-spotlight-buttons a span {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    #spotlight div.spotlight-contents div.both-spotlight-buttons a {
+        padding: 14px 12px;
+    }
+
+    //about
+    #about section.for-common-flex div.right-about p {
+        font-size: 14px;
+    }
+    #about section.for-common-flex div.right-about section.all-locations span {
+        font-size: 14px;
+    }
+
+    //menu
+    #menu section.all_products {
+        width: unset;
+    }
+    
+    //faq
+    #faq section.questions div.clickable div.clicked p {
+        padding-left: 10px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    #faq section.questions div.clickable ul li h6 {
+        font-size: 15px;
+    }
+
+    //#contact
+    footer #contact ul.main-ul li ul.social-media {
+        margin: 0 70px;
+    }
+}
+
+@media all and (max-width: 320px) {}
